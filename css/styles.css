@@ -1,0 +1,84 @@
+html {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+/* need to figure out how to space logo and links vertically*/
+.nav-bar {
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 69px;
+}
+
+.nav-bar a {
+    text-decoration: underline;
+    margin: 0 10px;
+    color: seashell;
+}
+
+.nav-bar img {
+    height: 50px;
+    float: left;
+}
+
+.mission {
+    display: flex;
+    height: 700px;
+    width: 1200px;
+    margin-top: 70px;
+    align-items: center;
+    background-image: url('../images/img-mission-background.jpg');
+}
+
+.missionContent {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 90px;
+    justify-content: center;
+    background-color: black;
+}
+
+.missionContent h2 {
+    width: 100%;
+    padding: 0;
+    margin: 5px;
+}
+
+.missionContent h4 {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.featured-tea {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.featured-tea h2 {
+    width: 100%;
+}
+
+.featured-tea h4 {
+    width: 100%;
+    padding: 0;
+    margin: 0 0 10px 0;
+}
+
+.featured-tea img{
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+}
+
+
