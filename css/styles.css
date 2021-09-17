@@ -1,32 +1,62 @@
-html {
+/*
+    set font and its properties
+    set the background black
+    set opacity
+    make the page a flex container to use justify-content and align-items
+    set flex wrap 
+*/
+body {
     font-family: Helvetica;
     font-size: 22px;
     color: seashell;
     background-color: black;
     opacity: 0.9;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-/* need to figure out how to space logo and links vertically*/
+/* 
+    set bottom border
+    set position to be fixed on page
+    set width to be length of page
+    set background color
+    make nav bar inline flex to hold img & links & lets us use align-items
+    **need to figure out how to make the links float to the right**
+*/
 .nav-bar {
     border-bottom: 1px solid seashell;
     position: fixed;
     width: 100%;
     top: 0;
     height: 69px;
+    background-color: black;
+    display: inline-flex;
+    align-items: center;
 }
 
+/*links in nav bar, underlined, spaced and need to be aligned right*/
 .nav-bar a {
     text-decoration: underline;
     margin: 0 10px;
     color: seashell;
+    display: flex;
+    justify-content: right;
+    width: 100%;
 }
 
+/* logo in nav bar, 10px margins, 50px image height, aligned left*/
 .nav-bar img {
+    display: flex;
+    justify-content: left;
     height: 50px;
     float: left;
+    margin: 10px;
 }
 
+/* create first content section, set height & width, set background image*/
 .mission {
     display: flex;
     height: 700px;
@@ -36,6 +66,13 @@ html {
     background-image: url('../images/img-mission-background.jpg');
 }
 
+/*
+    flex container in a flex container, h2 and h4 content 
+    set height and width of container
+    set background color
+    set flex-wrap
+    center text horizontally and vertically
+*/
 .missionContent {
     display: flex;
     flex-wrap: wrap;
@@ -43,8 +80,13 @@ html {
     height: 90px;
     justify-content: center;
     background-color: black;
+    align-items: center;
 }
 
+/* 
+    making each text element 100% of the width to take up two separate lines
+    remove padding and margins except for the h2
+*/
 .missionContent h2 {
     width: 100%;
     padding: 0;
@@ -57,6 +99,12 @@ html {
     margin: 0;
 }
 
+/*
+    create flex container
+    set width, no specified height
+    set flex wrap
+    add margin to separate it from previous flex container
+*/
 .featured-tea {
     display: flex;
     flex-wrap: wrap;
@@ -65,6 +113,11 @@ html {
     margin-top: 50px;
 }
 
+/* 
+    make h2 and h4 elements be 100% width to use two lines and have 
+    images start on a new line
+    h4 gets a bottom margin to separate it from the images
+*/
 .featured-tea h2 {
     width: 100%;
 }
