@@ -128,10 +128,21 @@ body {
     margin: 0 0 10px 0;
 }
 
+/* 
+    class for divs containing image & text pair
+    set flex container with width of 300px
+    set flex wrap
+*/
+.featured-tea .imagetext {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+}
+
+/* set height width and margin for images*/
 .featured-tea img{
     height: 200px;
     width: 300px;
     margin: 10px;
 }
-
 
