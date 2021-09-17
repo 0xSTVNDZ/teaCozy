@@ -146,3 +146,75 @@ body {
     margin: 10px;
 }
 
+/*
+    locations flex container
+    set height, width, background image, flex wrap
+*/
+.locations {
+    height: 500px;
+    width: 1200px;
+    background-image: url('../images/img-locations-background.jpg');
+    object-fit: fill;
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    opacity: 1;
+}
+
+/* have the header span a whole row*/
+.locations h2 {
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 0;
+}
+
+/* 
+    each content container will also be a flex container
+    set height, width, background color, margins of each box
+    center items horizontally 
+*/
+.locationsContent {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 260px;
+    margin: 15px 20px;
+    background-color: black;
+    align-items: center;
+
+}
+
+/*text inside containers will be on their own row*/
+.locationsContent h3, p {
+    width: 100%;
+    margin: 0;
+}
+
+
+/*
+    contact section will be a flex container
+    set height, flex wrap, bottom margin
+    center content horizontally
+*/
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    height: 200px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+/* have text span their own row*/
+.contact h2,h5 {
+    width: 100%;
+}
+
+/*
+    align text left, set 20px margin and have it span its own row
+*/
+footer {
+    text-align: left;
+    margin: 20px;
+    width: 100%;
+}
