@@ -1,6 +1,6 @@
 # Project Name
 > Create a fictional tea shop website on your own computer.
-<!-- >> Live demo [_here_](https://www.example.com) -->
+> Live demo [_here_](https://0xstvndz.github.io/teaCozy/)
 
 
 ## General Information
