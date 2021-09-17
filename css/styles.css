@@ -198,6 +198,7 @@ body {
     center content horizontally
 */
 .contact {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     height: 200px;
